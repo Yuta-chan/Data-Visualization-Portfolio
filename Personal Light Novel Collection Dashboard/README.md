@@ -27,7 +27,7 @@ install.packages("stringr")
 ```
 
 ### Compilation and execution
-To run the app, set the working directory to the project's root folder and execute the following commands in your R console:
+To run the app, set the working directory to the project's root folder and execute the following commands in your R console after running the `process_and_save_data.R` file:
 
 ```R
 library(shiny)
