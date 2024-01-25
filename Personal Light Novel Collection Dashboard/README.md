@@ -1,7 +1,9 @@
 # Personal Light Novel Collection Dashboard
 
 ## Description of the Project and Motivation
-This project is a Shiny application designed to visualize and manage a personal collection of light novels. The motivation behind this dashboard is to have quick insights into the light novels available in a room, especially after a few days of organizing the collection with my mother. The dataset for the dashboard was diligently compiled by my mother, who learned to record the information on a Macintosh computer. This dashboard is a tribute to her effort and a tool to celebrate the shared joy of light novel collection.
+This project is a Shiny application designed to visualize and manage a personal collection of light novels.
+
+The motivation behind this dashboard is to have quick insights into the light novels available in a room, especially after a few days of organizing the collection with my mother. The dataset for the dashboard was diligently compiled by my mother, who learned to record the information on a Macintosh computer. This dashboard is a tribute to her effort and a tool to celebrate the shared joy of light novel collection.
 
 ## Files Structure of the Project with Explanation
 
