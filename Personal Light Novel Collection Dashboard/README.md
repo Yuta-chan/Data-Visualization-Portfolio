@@ -51,7 +51,7 @@ Alternatively, if you're using RStudio, you can simply click the Run App button.
 
 ### Results visualization
 
-Once the app is running, it will be hosted locally on your machine (usually at http://127.0.0.1:XXXX). Open this address in your web browser to interact with the app and visualize ｍｙ light novel collection. The app will look like
+Once the app is running, it will be hosted locally on your machine (usually at http://127.0.0.1:XXXX). Open this address in your web browser to interact with the app and visualize the light novel collection. The app will look like
 
 ![app_example](https://github.com/Yuta-chan/Data-Visualization-Portfolio/assets/78736744/64ded87d-ab5c-4a70-bf40-3e689bf2b121)
 
