@@ -26,17 +26,35 @@ install.packages("dplyr")
 install.packages("stringr")
 ```
 
-### Compilation and execution
-To run the app, set the working directory to the project's root folder and execute the following commands in your R console after running the `process_and_save_data.R` file:
+### Data Preparation
+Navigate to the project's root directory in your terminal or command prompt and execute the process_and_save_data.R script. This script processes the raw data and generates essential datasets for the app. Run the following command:
+
+```bash
+Rscript process_and_save_data.R
+```
+
+It will generate the following files
+
+- books_personal_room_clean1.csv
+- book_personal_room_clean1.rds
+- author_personal_books.rds
+- title_personal_books.rds
+
+### Launching the app
+After processing the data, you can start the Shiny app. In your R console, ensure you're in the project's root directory and execute:
 
 ```R
 library(shiny)
 runApp()
 ```
+Alternatively, if you're using RStudio, you can simply click the Run App button.
 
 ### Results visualization
 
-Once the app is running, it will be hosted locally on your machine (usually at http://127.0.0.1:XXXX). Open this address in your web browser to interact with the app and visualize ｍｙ light novel collection.
+Once the app is running, it will be hosted locally on your machine (usually at http://127.0.0.1:XXXX). Open this address in your web browser to interact with the app and visualize ｍｙ light novel collection. The app will look like
+
+![app_example](https://github.com/Yuta-chan/Data-Visualization-Portfolio/assets/78736744/64ded87d-ab5c-4a70-bf40-3e689bf2b121)
+
 
 ## References
 Shiny: https://shiny.rstudio.com/
