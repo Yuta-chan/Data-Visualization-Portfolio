@@ -4,7 +4,7 @@ library(dplyr)
 # setwd("/path/to/your/directory")
 setwd('/home/lenovo/Escritorio/Projects/Github/personal_books')
 # Read the data from the text file
-df <- read.delim("books_personal_room_clean.txt", header = TRUE, sep = ',')
+df <- read.delim("books_personal_room.txt", header = TRUE, sep = ',')
 
 # Process the data: extract series number and clean up the title and author fields
 df <- df %>%
